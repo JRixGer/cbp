@@ -1,0 +1,286 @@
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.no-margin{
+    margin: 0 !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+.required{
+    color: red;
+}
+
+.navbar-header{
+    width: 200px;
+}
+
+.navbar-brand{
+    b{
+        color: #fff;
+    }
+}
+
+.disabled{
+    color: #bdbdbd;
+}
+
+.card-error{
+    border: 3px solid #FF5722 !important;
+}
+
+
+.left-sidebar{
+    width: 200px;
+
+    .sidebar-nav{
+        padding: 0px;
+        #sidebarnav{
+
+            .add-credits{
+                text-align: center;
+                background: #4CAF50;
+                color: #fff;
+                padding: 10px;
+                margin: 0;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+
+.page-wrapper{
+    margin-left: 200px;
+
+    .card{
+        .card-title{
+            padding: 10px;
+            background: #eee;
+        }
+
+        .card-block{
+            margin-top: -15px;
+        }
+
+        .card-body{
+            input,select{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .page-titles{
+        padding: 0px;
+    }
+
+    .card{
+        font-size: 12px;
+    }
+
+    .toolbar{
+        background: #7DACCE;
+        color: #fff;
+        h3{
+            color: #fff;
+            padding: 4px;
+            font-size: 18px;
+            margin-top: 0px;
+            span{
+                background: #fff;
+                color: #000;
+            }
+        }
+
+        .nav{
+            position: absolute;
+            top: -8px;
+
+
+        }
+        .nav-tabs{
+            border: none;
+        }
+
+        .nav-item{
+            a{
+                color: #fff;
+                font-size: 12px;
+            }
+        }
+
+        .nav-link.active{
+            color: #464a4c;
+            background: #EEF5F9;
+            border: none;
+        }
+
+        .bt-switch{
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+
+            span{
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.shipfrom-wrapper{
+    label{
+        width: 100%;
+    }
+    .edit{
+        font-size: 12px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.uspsbox-wrapper{
+    position: relative;
+    .overlay{
+        background: rgba(238, 238, 238,0.8);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0.25rem;
+
+        button{
+                margin: 30%;
+                margin-left: 35%;
+        }
+    }
+
+    ul{
+        padding-left: 0;
+        li{
+            list-style:none;
+        }
+    }
+}
+
+
+.postage-wrapper{
+    position: relative;
+    table{
+        width: 100%;
+
+        h4{
+            font-size: 14px;
+            font-weight: bold;
+            span{
+                float:right; 
+                padding-right: 40px
+            }
+        }
+
+        h6{
+            font-size: 12px
+        }
+
+        tr{
+
+            td:nth-child(2){
+                position: relative;
+                text-align: right;
+                label{
+                    position:absolute; 
+                    top:0; 
+                    right: -5px;
+                }
+            }
+        }
+
+    }
+
+    .reload-postage{
+        cursor: pointer;
+        font-size: 100px;
+        margin-top: -30px;
+        /*color: #00BCD4;*/
+        p{
+            font-size: 11px;
+            position: absolute;
+            bottom: -120px;
+            left: 10px;
+        }
+    }
+
+
+    .refresh-wrapper{
+        position: relative;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        z-index: 2;
+    }
+
+    .overlay{
+        background: rgba(238, 238, 238,0.8);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0.25rem;
+
+        button{
+                margin: 30%;
+                margin-left: 35%;
+        }
+    }
+
+    .total{
+        text-align: right;
+    }
+}
+
+.item-information-wrapper{
+
+    table{
+        
+        input{
+            padding: 2px;
+        }
+
+        thead{
+            font-size: 14px;
+        }
+
+        th{
+            font-size: 10px;
+        }
+
+        td{
+            padding: 3px;
+        }
+  
+
+        td:nth-child(2),
+        th:nth-child(2),
+        td:nth-child(3),
+        th:nth-child(3){
+            text-align: center;
+        }
+        
+    }
+    .card-title{
+        span{
+            float: right;
+            cursor: pointer;
+        }
+    }
+    .remove{
+        cursor: pointer;
+    }
+}

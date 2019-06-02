@@ -1,0 +1,59 @@
+{
+    "songs": [
+    {
+        "id": "1",
+        "name": "Thriller",
+        "album": "Thriller"
+    },
+    {
+        "id": "2",
+        "name": "Dangerous",
+        "album": "Dangerous"
+    },
+    {
+        "id": "3",
+        "name": "Stranger In Moscow",
+        "album": "History"
+    },
+    {
+        "id": "4",
+        "name": "Smooth Criminal",
+        "album": "BAD"
+    },
+    {
+        "id": "5",
+        "name": "BAD",
+        "album": "BAD"
+    },
+    {
+        "id": "6",
+        "name": "Black or White",
+        "album": "Dangerous"
+    },
+    {
+        "id": "6",
+        "name": "You rock My World",
+        "album": "Invincible"
+    },
+    {
+        "id": "7",
+        "name": "Hold My Hand",
+        "album": "Michael"
+    },
+    {
+        "id": "8",
+        "name": "Rock With You",
+        "album": "Off The Wall"
+    },
+    {
+        "id": "9",
+        "name": "Billy Jean",
+        "album": "Thriller"
+    },
+    {
+        "id": "10",
+        "name": "They don't really care about us",
+        "album": "History"
+    }
+  ]
+}
