@@ -28,7 +28,7 @@
     "filesaver": "0.0.13",
     "imagemin": "^6.0.0",
     "moment": "^2.22.2",
-    "papaparse": "^4.6.2",
+    "papaparse": "^5.3.0",
     "pretty-checkbox": "^3.0.3",
     "sweetalert": "^2.1.2",
     "vue-clickaway": "^2.2.2",
